@@ -1,0 +1,129 @@
+@media (max-width: 425px) {
+    .bottom-part {
+        flex-direction: column;
+        gap: 10px 0;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .devices-box {
+        width: 100%;
+    }
+
+    .devices-img svg {
+        max-width: 25px;
+    }
+
+    .right-part h2 {
+        font-size: 34px !important;
+    }
+
+    .right-part h3 {
+        font-size: 24px !important;
+        line-height: 38px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .btn-grp {
+        flex-direction: column;
+        gap: 15px 0;
+    }
+
+    .right-img {
+        max-width: 100%;
+        margin-left: -100px !important;
+    }
+
+    .logo-1 {
+        max-width: 120px;
+    }
+
+    .logo-2 {
+        max-width: 120px;
+    }
+
+    .title-content h3 {
+        font-size: 28px;
+    }
+
+    .title-content h5 {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    .right-part h2 {
+        font-size: 38px !important;
+    }
+
+    .right-part h3 {
+        font-size: 24px !important;
+        line-height: 38px;
+    }
+    .nav-tabs{
+        margin-top: 38px;
+    }
+    .reg-additional {
+        margin-bottom: 40px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .right-part {
+        padding: 60px 0;
+    }
+
+    .cspd2 {
+        padding: 0;
+    }
+
+    .right-part h2 {
+        font-size: 44px;
+    }
+
+    .right-part h3 {
+        font-size: 28px;
+    }
+    .simu-pera {
+      
+        margin-bottom: 40px;
+    }
+    .trading-simu {
+        margin-top: 46px !important;
+        margin-bottom: 56px !important;
+    }
+    .reg-additional{
+        margin-bottom: 60px; 
+    }
+}
+@media (max-width: 991.98px) { 
+    .right-part {
+        padding: 80px 0;
+    }
+    .trading-simu {
+        margin-top: 60px;
+        margin-bottom: 100px;
+        padding: 20px;
+       
+    }
+    .simu-btn{
+        max-width: 275px;
+    }
+    .trading-simu::before{
+
+    }
+ }
+@media (max-width: 1199.98px) {
+    .right-img {
+        max-width: 90%;
+        margin-left: -86px !important;
+    }
+
+    .devices-box p {
+        font-size: 14px;
+    }
+
+    .devices-img img {
+        max-width: 10px;
+    }
+}
